@@ -9,37 +9,52 @@
 
 <body>
 	<h1 class="text-center">Internship Form</h1>
-	<form>
-  
+	<form class="row g-3">
+  <div class="col-md-4">
     <label for="first-name-input" class="form-label">First Name</label>
     <input type="text" class="form-control" id="first-name-input">
+  </div>
+  <div class="col-md-4">
     <label for="last-name-input" class="form-label">Last Name</label>
     <input type="text" class="form-control" id="last-name-input">
-    <label for="email-input" class="form-label">Email Address</label>
+  </div>
+  <div class="col-md-4">
+    <label for="email-input" class="form-label">Email</label>
     <input type="email" class="form-control" id="email-input" placeholder="xyz@abc.com">
-      <label for="college-input" class="form-label">College</label>
-    <input type="text" class="form-control" id="college-input"> 
-		
-    <div class="input-group mb-3">
-		 <label for="email-input" class="form-label">Graduation Year</label>
-  <select class="form-select" id="inputGroupSelect02">
-    <option selected>Choose...</option>
-    <option value="1">2020</option>
-    <option value="2">2021</option>
-    <option value="3">2022</option>
-	<option value="3">2023</option>
-  </select>
-	</div>
-	<label for="roll-no-input" class="form-label">Roll No.</label>
-    <input type="text" class="form-control" id="roll-no-input"> 
-		
-		
-    <input type="checkbox" class="form-check-input" id="conditions-checkbox">
-    <label class="form-check-label" for="conditions-checkbox">Agree to terms and conditions</label>
+  </div>
+  <div class="col-md-4">
+    <label for="college-input" class="form-label">College</label>
+    <input type="text" class="form-control" id="college-input">
+  </div>
   
-  <button type="submit" class="btn btn-primary">Submit form</button>
+  <div class="col-md-4">
+    <label for="graduation-year-input" class="form-label">Graduation Year</label>
+    <select id="graduation-year-input" class="form-select">
+      <option selected>Choose...</option>
+      <option>2020</option>
+<option>2021</option>
+		<option>2022</option>
+		<option>2023</option>
+	</select>
+  </div>
+  <div class="col-md-4">
+    <label for="roll-no-input" class="form-label">Roll No.</label>
+    <input type="text" class="form-control" id="roll-no-input">
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="conditions-checkbox">
+      <label class="form-check-label" for="conditions-checkbox">
+        Agree to terms and conditions
+      </label>
+    </div>
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Submit form</button>
+  </div>
 </form>
 	
+   
 	
 	
 	<!-- the entire body must be written by student -->
